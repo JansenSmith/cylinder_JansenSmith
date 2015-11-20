@@ -5,3 +5,4 @@ CSG cylinder = new Cylinder(	size/4, // Radius at the top
                       				size, // Height
                       			         (int)80 //resolution
                       			         ).toCSG()
+ return cylinder
