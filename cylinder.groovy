@@ -1,8 +1,8 @@
-double size=40
+
 //create a Cylinder
-CSG cylinder = new Cylinder(	size/4, // Radius at the top
-                      				size/2, // Radius at the bottom
-                      				size, // Height
+CSG cylinder = new Cylinder(	10, // Radius at the top
+                      				20, // Radius at the bottom
+                      				40, // Height
                       			         (int)30 //resolution
-                      			         ).toCSG()
+                      			         ).toCSG()//convert to CSG to display
  return cylinder
