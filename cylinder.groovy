@@ -10,6 +10,6 @@ CSG pyramid = new Cylinder(	20, // Radius at the bottom
                       				0, // Radius at the top
                       				40, // Height
                       			         (int)4 //resolution
-                      			         ).toCSG()//convert to CSG to display                    			         ).toCSG()//convert to CSG to display
+                      			         ).toCSG()//convert to CSG to display                    			 
                       			         .movex(50)
  return [cylinder ,pyramid]
