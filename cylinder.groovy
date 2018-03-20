@@ -1,4 +1,4 @@
-CSG simpleSyntax =new Cylinder(10,10,40,(int)30).toCSG() // a one line Cylinder
+CSG simpleSyntax =new Cylinder(10,40).toCSG() // a one line Cylinder
 
 //create a Cylinder
 CSG myCylinder = new Cylinder(10, // Radius at the bottom
