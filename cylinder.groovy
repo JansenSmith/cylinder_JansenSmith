@@ -14,4 +14,10 @@ CSG pyramid = new Cylinder(	20, // Radius at the bottom
                       		(int)4 //resolution
                       		).toCSG()//convert to CSG to display                    			 
                       		.movex(50)
- return [simpleSyntax,myCylinder ,pyramid]
+   //create a Cylinder
+CSG hex = new Hexagon(	20, // Flat to flat radius
+                      		40 // Height
+                      		).toCSG()//convert to CSG to display                    			 
+                      		.movex(50)
+                      		.movey(50)
+ return [simpleSyntax,myCylinder ,pyramid,hex]
