@@ -1,7 +1,7 @@
 CSG simpleSyntax =new Cylinder(10,40).toCSG() // a one line Cylinder
 
 //create a Cylinder
-CSG myCylinder = new Cylinder(10, // Radius at the bottom
+CSG myCylinder = new Cylinder(30, // Radius at the bottom
                       		20, // Radius at the top
                       		40, // Height
                       		(int)30 //resolution
