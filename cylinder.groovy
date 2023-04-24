@@ -14,6 +14,7 @@ CSG pyramid = new Cylinder(	20, // Radius at the bottom
                       		(int)4 //resolution
                       		).toCSG()//convert to CSG to display                    			 
                       		.movex(50)
+                      		
    //create a Hexagonal Pyramid
 CSG hex = new Hexagon(	20, // Flat to flat radius
                       		40 // Height
